@@ -58,6 +58,12 @@ body {
 
 /* flag-ukraine */
 
+.flag-ukraine {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .flag-ukraine .top-stripe,
 .flag-ukraine .bottom-stripe {
     width: 100%;
@@ -138,4 +144,39 @@ body {
 .flag-iceland .rectangle-l-bottom {
     bottom: 0;
     border-width: 5px 0px 0px 5px;
+}
+
+
+/* flag-czech */
+
+.flag-czech {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.flag-czech .top-stripe,
+.flag-czech .bottom-stripe {
+    height: 75px;
+    width: 100%;
+}
+
+.flag-czech .top-stripe {
+    background-color: #fff;
+}
+
+.flag-czech .bottom-stripe {
+    background-color: #D1302B;
+}
+
+.flag-czech .triangle {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 75px 0 75px 128px;
+    border-color: transparent transparent transparent #10437B;
 }
