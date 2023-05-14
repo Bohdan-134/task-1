@@ -73,4 +73,18 @@ body {
 }
 
 
-/* flag-ukraine */
+/* .flag-japan */
+
+.flag-japan {
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flag-japan .circle {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #BE2B2A;
+}
