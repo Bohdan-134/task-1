@@ -73,7 +73,7 @@ body {
 }
 
 
-/* .flag-japan */
+/* flag-japan */
 
 .flag-japan {
     background-color: #fff;
@@ -87,4 +87,55 @@ body {
     height: 100px;
     border-radius: 50%;
     background-color: #BE2B2A;
+}
+
+
+/* flag-iceland */
+
+.flag-iceland {
+    position: relative;
+    background-color: #D63234;
+}
+
+.flag-iceland .rectangle-s-top,
+.flag-iceland .rectangle-s-bottom,
+.flag-iceland .rectangle-l-top,
+.flag-iceland .rectangle-l-bottom {
+    position: absolute;
+    height: 70px;
+    border-style: solid;
+    border-color: #FFFFFF;
+    background-color: #105098;
+}
+
+.flag-iceland .rectangle-s-top,
+.flag-iceland .rectangle-s-bottom {
+    left: 0;
+    width: 100px;
+}
+
+.flag-iceland .rectangle-l-top,
+.flag-iceland .rectangle-l-bottom {
+    right: 0;
+    width: 190px;
+}
+
+.flag-iceland .rectangle-s-top {
+    top: 0;
+    border-width: 0px 5px 5px 0px;
+}
+
+.flag-iceland .rectangle-s-bottom {
+    bottom: 0;
+    border-width: 5px 5px 0px 0px;
+}
+
+.flag-iceland .rectangle-l-top {
+    top: 0;
+    border-width: 0px 0px 5px 5px;
+}
+
+.flag-iceland .rectangle-l-bottom {
+    bottom: 0;
+    border-width: 5px 0px 0px 5px;
 }
